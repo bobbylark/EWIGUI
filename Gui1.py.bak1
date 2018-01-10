@@ -704,7 +704,7 @@ class Remote:
         self.btnExit.configure(highlightcolor="black")
         self.btnExit.configure(pady="0")
         self.btnExit.configure(text='''Exit''')
-        self.btnExit.bind('<Button-1>',lambda e:Gui1_support.destroy_window())
+        self.btnExit.bind('<Button-1>',lambda e:Gui1_support.Destroy(e))
 
         self.Label24 = Label(self.Frame4)
         self.Label24.place(relx=0.01, rely=0.2, height=21, width=38)
