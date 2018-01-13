@@ -35,6 +35,7 @@ proc vTcl:project:info {} {
     set site_3_0 $base.lab109
     set site_3_0 $base.lab118
     set site_4_0 $site_3_0.fra69
+    set site_4_0 $site_3_0.cpd75
     namespace eval ::widgets_bindings {
         set tagslist _TopLevel
     }
@@ -682,8 +683,8 @@ proc vTclWindow.top37 {base} {
         -highlightbackground {#d9d9d9} -highlightcolor black -text KM/H 
     vTcl:DefineAlias "$site_3_0.cpd47" "Label21" vTcl:WidgetProc "Toplevel1" 1
     frame $site_3_0.fra69 \
-        -borderwidth 2 -relief groove -background {#020202} -height 65 \
-        -width 115 
+        -borderwidth 2 -background {#020202} -height 65 \
+        -highlightcolor {#000000} -width 115 
     vTcl:DefineAlias "$site_3_0.fra69" "Frame3" vTcl:WidgetProc "Toplevel1" 1
     set site_4_0 $site_3_0.fra69
     label $site_4_0.cpd71 \
@@ -710,6 +711,47 @@ proc vTclWindow.top37 {base} {
         -highlightcolor black -insertbackground black \
         -selectbackground {#c4c4c4} -selectforeground black 
     vTcl:DefineAlias "$site_4_0.cpd74" "Entry10" vTcl:WidgetProc "Toplevel1" 1
+    place $site_4_0.cpd71 \
+        -in $site_4_0 -x 0 -y -10 -width 114 -height 41 -anchor nw \
+        -bordermode inside 
+    place $site_4_0.cpd72 \
+        -in $site_4_0 -x 80 -y 30 -width 30 -height 30 -anchor nw \
+        -bordermode ignore 
+    place $site_4_0.cpd73 \
+        -in $site_4_0 -x 40 -y 30 -width 30 -height 30 -anchor nw \
+        -bordermode ignore 
+    place $site_4_0.cpd74 \
+        -in $site_4_0 -x 0 -y 30 -width 30 -height 30 -anchor nw \
+        -bordermode ignore 
+    frame $site_3_0.cpd75 \
+        -borderwidth 2 -background {#020202} -height 65 \
+        -highlightbackground {#d9d9d9} -highlightcolor {#000000} -width 115 
+    vTcl:DefineAlias "$site_3_0.cpd75" "Frame5" vTcl:WidgetProc "Toplevel1" 1
+    set site_4_0 $site_3_0.cpd75
+    label $site_4_0.cpd71 \
+        -activebackground {#000000} -activeforeground black \
+        -background {#000000} -disabledforeground {#a3a3a3} \
+        -font {{Segoe UI} 20} -foreground {#ffffff} \
+        -highlightbackground {#000000} -highlightcolor black -text 00:00:00 
+    vTcl:DefineAlias "$site_4_0.cpd71" "lblLTime2" vTcl:WidgetProc "Toplevel1" 1
+    entry $site_4_0.cpd72 \
+        -background white -disabledforeground {#a3a3a3} -font font10 \
+        -foreground {#000000} -highlightbackground {#d9d9d9} \
+        -highlightcolor black -insertbackground black \
+        -selectbackground {#c4c4c4} -selectforeground black 
+    vTcl:DefineAlias "$site_4_0.cpd72" "Entry11" vTcl:WidgetProc "Toplevel1" 1
+    entry $site_4_0.cpd73 \
+        -background white -disabledforeground {#a3a3a3} -font font10 \
+        -foreground {#000000} -highlightbackground {#d9d9d9} \
+        -highlightcolor black -insertbackground black \
+        -selectbackground {#c4c4c4} -selectforeground black 
+    vTcl:DefineAlias "$site_4_0.cpd73" "Entry12" vTcl:WidgetProc "Toplevel1" 1
+    entry $site_4_0.cpd74 \
+        -background white -disabledforeground {#a3a3a3} -font font10 \
+        -foreground {#000000} -highlightbackground {#d9d9d9} \
+        -highlightcolor black -insertbackground black \
+        -selectbackground {#c4c4c4} -selectforeground black 
+    vTcl:DefineAlias "$site_4_0.cpd74" "Entry13" vTcl:WidgetProc "Toplevel1" 1
     place $site_4_0.cpd71 \
         -in $site_4_0 -x 0 -y -10 -width 114 -height 41 -anchor nw \
         -bordermode inside 
@@ -753,8 +795,11 @@ proc vTclWindow.top37 {base} {
         -in $site_3_0 -x 710 -y 100 -width 164 -height 41 -anchor nw \
         -bordermode inside 
     place $site_3_0.fra69 \
-        -in $site_3_0 -x 50 -y 180 -width 115 -relwidth 0 -height 65 \
+        -in $site_3_0 -x 50 -y 200 -width 115 -relwidth 0 -height 65 \
         -relheight 0 -anchor nw -bordermode ignore 
+    place $site_3_0.cpd75 \
+        -in $site_3_0 -x 210 -y 180 -width 115 -relwidth 0 -height 65 \
+        -relheight 0 -anchor nw -bordermode inside 
     radiobutton $top.rad121 \
         -activebackground {#000000} -activeforeground {#ffffff} \
         -background {#000000} -disabledforeground {#a3a3a3} -font 30 \

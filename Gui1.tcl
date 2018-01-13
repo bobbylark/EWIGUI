@@ -76,7 +76,7 @@ proc vTclWindow.top37 {base} {
     # CREATING WIDGETS
     ###################
     vTcl::widgets::core::toplevel::createCmd $top -class Toplevel \
-        -menu "$top.m124" -background {#969696} \
+        -menu "$top.m124" -background {#000000} \
         -highlightbackground {#000000} -highlightcolor black 
     wm focusmodel $top passive
     wm geometry $top 1280x820
@@ -324,7 +324,7 @@ proc vTclWindow.top37 {base} {
     labelframe $top.lab79 \
         -font {{Segoe UI} 10} -foreground {#ffffff} -text {Lap Times} \
         -background {#000000} -height 145 -highlightbackground {#d9d9d9} \
-        -highlightcolor black -width 310 
+        -highlightcolor black -width 320 
     vTcl:DefineAlias "$top.lab79" "FrameLaptimes" vTcl:WidgetProc "Toplevel1" 1
     set site_3_0 $top.lab79
     label $site_3_0.cpd81 \
@@ -682,8 +682,8 @@ proc vTclWindow.top37 {base} {
         -in $site_3_0 -x 40 -y 50 -width 115 -height 75 -anchor nw \
         -bordermode inside 
     labelframe $top.lab118 \
-        -foreground {#ffffff} -text {Car Data} -background {#3e3e3e} \
-        -height 305 -highlightbackground {#d9d9d9} -highlightcolor {#000000} \
+        -foreground {#ffffff} -text {Car Data} -background {#000000} \
+        -height 175 -highlightbackground {#d9d9d9} -highlightcolor {#000000} \
         -width 910 
     vTcl:DefineAlias "$top.lab118" "Labelframe4" vTcl:WidgetProc "Toplevel1" 1
     set site_3_0 $top.lab118
@@ -709,7 +709,7 @@ proc vTclWindow.top37 {base} {
         -activebackground {#f9f9f9} -activeforeground black \
         -background {#000000} -disabledforeground {#a3a3a3} \
         -font {{Segoe UI} 50} -foreground {#ffffff} \
-        -highlightbackground {#d9d9d9} -highlightcolor black -text 00.0 
+        -highlightbackground {#d9d9d9} -highlightcolor black -text 000.0 
     vTcl:DefineAlias "$site_3_0.cpd42" "Label16" vTcl:WidgetProc "Toplevel1" 1
     label $site_3_0.cpd44 \
         -activebackground {#f9f9f9} -activeforeground black \
@@ -733,19 +733,19 @@ proc vTclWindow.top37 {base} {
         -activebackground {#f9f9f9} -activeforeground black \
         -background {#000000} -disabledforeground {#a3a3a3} \
         -font {{Segoe UI} 20} -foreground {#ffffff} \
-        -highlightbackground {#d9d9d9} -highlightcolor black -text KM/H 
+        -highlightbackground {#d9d9d9} -highlightcolor black -text TPS 
     vTcl:DefineAlias "$site_3_0.cpd45" "Label19" vTcl:WidgetProc "Toplevel1" 1
     label $site_3_0.cpd46 \
         -activebackground {#f9f9f9} -activeforeground black \
         -background {#000000} -disabledforeground {#a3a3a3} \
         -font {{Segoe UI} 20} -foreground {#ffffff} \
-        -highlightbackground {#d9d9d9} -highlightcolor black -text KM/H 
+        -highlightbackground {#d9d9d9} -highlightcolor black -text {Bat. V} 
     vTcl:DefineAlias "$site_3_0.cpd46" "Label20" vTcl:WidgetProc "Toplevel1" 1
     label $site_3_0.cpd47 \
         -activebackground {#f9f9f9} -activeforeground black \
         -background {#000000} -disabledforeground {#a3a3a3} \
         -font {{Segoe UI} 20} -foreground {#ffffff} \
-        -highlightbackground {#d9d9d9} -highlightcolor black -text KM/H 
+        -highlightbackground {#d9d9d9} -highlightcolor black -text Temp 
     vTcl:DefineAlias "$site_3_0.cpd47" "Label21" vTcl:WidgetProc "Toplevel1" 1
     place $site_3_0.cpd39 \
         -in $site_3_0 -x 200 -y 0 -width 164 -relwidth 0 -height 101 \
@@ -889,16 +889,16 @@ proc vTclWindow.top37 {base} {
         -text {Predicted Laptime} -textvariable {} 
     vTcl:DefineAlias "$site_3_0.cpd82" "lblLTime4" vTcl:WidgetProc "Toplevel1" 1
     place $site_3_0.cpd71 \
-        -in $site_3_0 -x 40 -y 20 -width 114 -height 41 -anchor nw \
+        -in $site_3_0 -x 10 -y 20 -width 114 -height 41 -anchor nw \
         -bordermode inside 
     place $site_3_0.cpd72 \
-        -in $site_3_0 -x 120 -y 60 -width 30 -height 30 -anchor nw \
+        -in $site_3_0 -x 90 -y 60 -width 30 -height 30 -anchor nw \
         -bordermode ignore 
     place $site_3_0.cpd73 \
-        -in $site_3_0 -x 80 -y 60 -width 30 -height 30 -anchor nw \
+        -in $site_3_0 -x 50 -y 60 -width 30 -height 30 -anchor nw \
         -bordermode ignore 
     place $site_3_0.cpd74 \
-        -in $site_3_0 -x 40 -y 60 -width 30 -height 30 -anchor nw \
+        -in $site_3_0 -x 10 -y 60 -width 30 -height 30 -anchor nw \
         -bordermode ignore 
     place $site_3_0.cpd82 \
         -in $site_3_0 -x 0 -y -10 -width 174 -relwidth 0 -height 41 \
@@ -907,23 +907,23 @@ proc vTclWindow.top37 {base} {
     # SETTING GEOMETRY
     ###################
     place $top.cpd42 \
-        -in $top -x 960 -y 70 -width 304 -relwidth 0 -height 91 -relheight 0 \
+        -in $top -x 960 -y 70 -width 324 -relwidth 0 -height 91 -relheight 0 \
         -anchor nw -bordermode inside 
     place $top.lab43 \
-        -in $top -x 960 -y 50 -width 304 -relwidth 0 -height 31 -relheight 0 \
+        -in $top -x 960 -y 50 -width 324 -relwidth 0 -height 31 -relheight 0 \
         -anchor nw -bordermode ignore 
     place $top.fra62 \
-        -in $top -x 960 -y 540 -width 305 -relwidth 0 -height 255 \
+        -in $top -x 960 -y 530 -width 305 -relwidth 0 -height 255 \
         -relheight 0 -anchor nw -bordermode ignore 
     place $top.lab79 \
-        -in $top -x 960 -y 380 -width 310 -relwidth 0 -height 145 \
+        -in $top -x 960 -y 380 -width 320 -relwidth 0 -height 145 \
         -relheight 0 -anchor nw -bordermode ignore 
     place $top.cpd103 \
-        -in $top -x 960 -y 180 -width 304 -height 91 -anchor nw \
-        -bordermode inside 
+        -in $top -x 960 -y 180 -width 324 -relwidth 0 -height 91 -relheight 0 \
+        -anchor nw -bordermode inside 
     place $top.cpd104 \
-        -in $top -x 960 -y 160 -width 304 -height 31 -anchor nw \
-        -bordermode inside 
+        -in $top -x 960 -y 160 -width 324 -relwidth 0 -height 31 -relheight 0 \
+        -anchor nw -bordermode inside 
     place $top.fra106 \
         -in $top -x 0 -y 0 -width 1295 -relwidth 0 -height 35 -relheight 0 \
         -anchor nw -bordermode ignore 
@@ -931,10 +931,10 @@ proc vTclWindow.top37 {base} {
         -in $top -x 20 -y 680 -width 910 -relwidth 0 -height 105 -relheight 0 \
         -anchor nw -bordermode ignore 
     place $top.lab117 \
-        -in $top -x 20 -y 510 -width 910 -relwidth 0 -height 165 -relheight 0 \
+        -in $top -x 20 -y 460 -width 910 -relwidth 0 -height 165 -relheight 0 \
         -anchor nw -bordermode ignore 
     place $top.lab118 \
-        -in $top -x 20 -y 30 -width 910 -relwidth 0 -height 305 -relheight 0 \
+        -in $top -x 20 -y 60 -width 910 -relwidth 0 -height 175 -relheight 0 \
         -anchor nw -bordermode ignore 
     place $top.rad121 \
         -in $top -x 460 -y 40 -width 168 -relwidth 0 -height 15 -relheight 0 \
@@ -943,10 +943,10 @@ proc vTclWindow.top37 {base} {
         -in $top -x 240 -y 40 -width 168 -relwidth 0 -height 15 -relheight 0 \
         -anchor nw -bordermode ignore 
     place $top.cpd37 \
-        -in $top -x 20 -y 340 -width 910 -relwidth 0 -height 175 -relheight 0 \
+        -in $top -x 20 -y 250 -width 910 -relwidth 0 -height 175 -relheight 0 \
         -anchor nw -bordermode inside 
     place $top.but49 \
-        -in $top -x 1140 -y 280 -width 127 -relwidth 0 -height 94 \
+        -in $top -x 1140 -y 280 -width 137 -relwidth 0 -height 94 \
         -relheight 0 -anchor nw -bordermode ignore 
     place $top.cpd81 \
         -in $top -x 960 -y 270 -width 175 -relwidth 0 -height 105 \

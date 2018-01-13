@@ -447,6 +447,18 @@ proc vTclWindow.top37 {base} {
         -font {{Segoe UI} 10} -foreground {#ffffff} \
         -highlightbackground {#d9d9d9} -highlightcolor black -text 00:00:00 
     vTcl:DefineAlias "$site_3_0.cpd102" "lblLap10" vTcl:WidgetProc "Toplevel1" 1
+    label $site_3_0.cpd90 \
+        -activebackground {#000000} -activeforeground black \
+        -background {#000000} -disabledforeground {#a3a3a3} \
+        -font {{Segoe UI} 40} -foreground {#ffffff} \
+        -highlightbackground {#000000} -highlightcolor black -text 00 
+    vTcl:DefineAlias "$site_3_0.cpd90" "lblLTime5" vTcl:WidgetProc "Toplevel1" 1
+    label $site_3_0.cpd92 \
+        -activebackground {#000000} -activeforeground black \
+        -background {#000000} -disabledforeground {#a3a3a3} \
+        -font {{Segoe UI} 16} -foreground {#ffffff} \
+        -highlightbackground {#000000} -highlightcolor black -text {Lap } 
+    vTcl:DefineAlias "$site_3_0.cpd92" "lblLTime6" vTcl:WidgetProc "Toplevel1" 1
     place $site_3_0.cpd81 \
         -in $site_3_0 -x 10 -y 20 -width 54 -height 21 -anchor nw \
         -bordermode inside 
@@ -507,6 +519,12 @@ proc vTclWindow.top37 {base} {
     place $site_3_0.cpd102 \
         -in $site_3_0 -x 180 -y 80 -width 54 -height 21 -anchor nw \
         -bordermode inside 
+    place $site_3_0.cpd90 \
+        -in $site_3_0 -x 240 -y 40 -width 54 -relwidth 0 -height 51 \
+        -relheight 0 -anchor nw -bordermode inside 
+    place $site_3_0.cpd92 \
+        -in $site_3_0 -x 240 -y 0 -width 54 -relwidth 0 -height 41 \
+        -relheight 0 -anchor nw -bordermode inside 
     label $top.cpd103 \
         -activebackground {#000000} -activeforeground black \
         -background {#000000} -disabledforeground {#a3a3a3} \
