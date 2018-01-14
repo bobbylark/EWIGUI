@@ -589,7 +589,7 @@ proc vTclWindow.top37 {base} {
     vTcl:DefineAlias "$site_3_0.cpd39" "tcbBuad" vTcl:WidgetProc "Toplevel1" 1
     button $site_3_0.but50 \
         -activebackground {#d9d9d9} -activeforeground {#000000} \
-        -background {#d9d9d9} -disabledforeground {#a3a3a3} \
+        -background {#ffff00} -disabledforeground {#a3a3a3} \
         -foreground {#000000} -highlightbackground {#d9d9d9} \
         -highlightcolor black -pady 0 -text Reset 
     vTcl:DefineAlias "$site_3_0.but50" "btnReset" vTcl:WidgetProc "Toplevel1" 1
@@ -618,7 +618,7 @@ proc vTclWindow.top37 {base} {
         -in $site_3_0 -x 222 -y 5 -width 83 -relwidth 0 -height 21 \
         -relheight 0 -anchor nw -bordermode ignore 
     place $site_3_0.but50 \
-        -in $site_3_0 -x 720 -y 10 -width 87 -relwidth 0 -height 24 \
+        -in $site_3_0 -x 720 -y 0 -width 87 -relwidth 0 -height 34 \
         -relheight 0 -anchor nw -bordermode ignore 
     labelframe $top.lab109 \
         -foreground {#ffffff} -text {Raw Data} -background {#000000} \
