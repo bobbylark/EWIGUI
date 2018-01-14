@@ -1336,7 +1336,7 @@ proc vTclWindow.top37 {base} {
         -in $top -x 920 -y 160 -width 364 -relwidth 0 -height 31 -relheight 0 \
         -anchor nw -bordermode inside 
     place $top.fra106 \
-        -in $top -x -20 -y 0 -width 1295 -relwidth 0 -height 35 -relheight 0 \
+        -in $top -x -10 -y 0 -width 1295 -relwidth 0 -height 35 -relheight 0 \
         -anchor nw -bordermode ignore 
     place $top.lab109 \
         -in $top -x 20 -y 640 -width 910 -relwidth 0 -height 145 -relheight 0 \
