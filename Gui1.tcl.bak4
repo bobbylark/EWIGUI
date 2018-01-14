@@ -289,43 +289,43 @@ proc vTclWindow.top37 {base} {
         -in $site_3_0 -x 190 -y 20 -width 87 -relwidth 0 -height 94 \
         -relheight 0 -anchor nw -bordermode inside 
     place $site_3_0.cpd65 \
-        -in $site_3_0 -x 120 -y 30 -width 40 -height 40 -anchor nw \
+        -in $site_3_0 -x 120 -y 30 -width 50 -height 50 -anchor nw \
         -bordermode ignore 
     place $site_3_0.cpd66 \
-        -in $site_3_0 -x 70 -y 30 -width 40 -relwidth 0 -height 40 \
+        -in $site_3_0 -x 70 -y 30 -width 50 -relwidth 0 -height 50 \
         -relheight 0 -anchor nw -bordermode ignore 
     place $site_3_0.cpd67 \
-        -in $site_3_0 -x 20 -y 30 -width 40 -height 40 -anchor nw \
+        -in $site_3_0 -x 20 -y 30 -width 50 -height 50 -anchor nw \
         -bordermode ignore 
     place $site_3_0.cpd68 \
-        -in $site_3_0 -x 20 -y 80 -width 40 -height 40 -anchor nw \
+        -in $site_3_0 -x 20 -y 80 -width 50 -height 50 -anchor nw \
         -bordermode ignore 
     place $site_3_0.cpd69 \
-        -in $site_3_0 -x 70 -y 80 -width 40 -height 40 -anchor nw \
+        -in $site_3_0 -x 70 -y 80 -width 50 -height 50 -anchor nw \
         -bordermode ignore 
     place $site_3_0.cpd70 \
-        -in $site_3_0 -x 120 -y 80 -width 40 -height 40 -anchor nw \
+        -in $site_3_0 -x 120 -y 80 -width 50 -height 50 -anchor nw \
         -bordermode ignore 
     place $site_3_0.cpd71 \
         -in $site_3_0 -x 856 -y 495 -width 365 -height 685 -anchor nw \
         -bordermode inside 
     place $site_3_0.cpd72 \
-        -in $site_3_0 -x 120 -y 130 -width 40 -height 40 -anchor nw \
+        -in $site_3_0 -x 120 -y 130 -width 50 -height 50 -anchor nw \
         -bordermode ignore 
     place $site_3_0.cpd73 \
-        -in $site_3_0 -x 20 -y 180 -width 40 -height 40 -anchor nw \
+        -in $site_3_0 -x 20 -y 180 -width 50 -height 50 -anchor nw \
         -bordermode ignore 
     place $site_3_0.cpd74 \
-        -in $site_3_0 -x 70 -y 180 -width 40 -height 40 -anchor nw \
+        -in $site_3_0 -x 70 -y 180 -width 50 -height 50 -anchor nw \
         -bordermode ignore 
     place $site_3_0.cpd75 \
-        -in $site_3_0 -x 120 -y 180 -width 40 -height 40 -anchor nw \
+        -in $site_3_0 -x 120 -y 180 -width 50 -height 50 -anchor nw \
         -bordermode ignore 
     place $site_3_0.cpd76 \
-        -in $site_3_0 -x 70 -y 130 -width 40 -height 40 -anchor nw \
+        -in $site_3_0 -x 70 -y 130 -width 50 -height 50 -anchor nw \
         -bordermode ignore 
     place $site_3_0.cpd77 \
-        -in $site_3_0 -x 20 -y 130 -width 40 -height 40 -anchor nw \
+        -in $site_3_0 -x 20 -y 130 -width 50 -height 50 -anchor nw \
         -bordermode ignore 
     labelframe $top.lab79 \
         -font {{Segoe UI} 10} -foreground {#ffffff} -text {Lap Times} \
