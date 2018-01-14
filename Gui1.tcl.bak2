@@ -802,7 +802,7 @@ proc vTclWindow.top37 {base} {
     labelframe $top.cpd37 \
         -foreground {#ffffff} -text {Engine Start} -background {#2c2c2c} \
         -height 175 -highlightbackground {#d9d9d9} -highlightcolor black \
-        -width 910 
+        -width 680 
     vTcl:DefineAlias "$top.cpd37" "Labelframe5" vTcl:WidgetProc "Toplevel1" 1
     set site_3_0 $top.cpd37
     frame $site_3_0.cpd79 \
@@ -978,7 +978,7 @@ proc vTclWindow.top37 {base} {
         -activebackground {#000000} -activeforeground black \
         -background {#000000} -disabledforeground {#a3a3a3} \
         -font {{Segoe UI} 20} -foreground {#ffffff} \
-        -highlightbackground {#000000} -highlightcolor black -text RunTPS 
+        -highlightbackground {#000000} -highlightcolor black -text {Run TPS} 
     vTcl:DefineAlias "$site_4_0.cpd38" "lblLTime17" vTcl:WidgetProc "Toplevel1" 1
     label $site_4_0.cpd41 \
         -activebackground {#000000} -activeforeground black \
@@ -999,8 +999,8 @@ proc vTclWindow.top37 {base} {
         -in $site_4_0 -x 20 -y 80 -width 60 -relwidth 0 -height 30 \
         -relheight 0 -anchor nw -bordermode ignore 
     place $site_4_0.cpd38 \
-        -in $site_4_0 -x 0 -y -10 -width 114 -height 41 -anchor nw \
-        -bordermode inside 
+        -in $site_4_0 -x 0 -y -10 -width 104 -relwidth 0 -height 41 \
+        -relheight 0 -anchor nw -bordermode inside 
     place $site_4_0.cpd41 \
         -in $site_4_0 -x 80 -y 40 -width 34 -relwidth 0 -height 21 \
         -relheight 0 -anchor nw -bordermode inside 
@@ -1064,10 +1064,10 @@ proc vTclWindow.top37 {base} {
         -in $site_3_0 -x 150 -y 20 -width 115 -relwidth 0 -height 125 \
         -relheight 0 -anchor nw -bordermode inside 
     place $site_3_0.cpd43 \
-        -in $site_3_0 -x 580 -y 20 -width 115 -relwidth 0 -height 125 \
+        -in $site_3_0 -x 420 -y 20 -width 115 -relwidth 0 -height 125 \
         -relheight 0 -anchor nw -bordermode inside 
     place $site_3_0.cpd44 \
-        -in $site_3_0 -x 730 -y 20 -width 115 -height 125 -anchor nw \
+        -in $site_3_0 -x 550 -y 20 -width 115 -height 125 -anchor nw \
         -bordermode inside 
     place $site_3_0.cpd45 \
         -in $site_3_0 -x 280 -y 20 -width 125 -relwidth 0 -height 125 \
@@ -1173,7 +1173,7 @@ proc vTclWindow.top37 {base} {
         -in $top -x 240 -y 40 -width 168 -relwidth 0 -height 15 -relheight 0 \
         -anchor nw -bordermode ignore 
     place $top.cpd37 \
-        -in $top -x 20 -y 250 -width 910 -relwidth 0 -height 175 -relheight 0 \
+        -in $top -x 20 -y 250 -width 680 -relwidth 0 -height 175 -relheight 0 \
         -anchor nw -bordermode inside 
     place $top.but49 \
         -in $top -x 1140 -y 280 -width 137 -relwidth 0 -height 94 \
