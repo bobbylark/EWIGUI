@@ -135,7 +135,7 @@ def btn9(p1):
 def btnBack(p1):
     print('Guiv2_support.btnBack')
     sys.stdout.flush()
-    k.tap_key('\b')
+    k.tap_key(k.backspace_key )
    
     
 
@@ -153,7 +153,7 @@ def btnDot(p1):
 def btnEnter(p1):
     print('Guiv2_support.btnEnter')
     sys.stdout.flush()
-    k.tap_key('\n')
+    k.tap_key(k.return_key)
 
 def init(top, gui, *args, **kwargs):
     global w, top_level, root
@@ -170,6 +170,8 @@ def destroy_window():
 if __name__ == '__main__':
     import Guiv2
     Guiv2.vp_start_gui()
+
+
 
 
 

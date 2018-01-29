@@ -134,7 +134,7 @@ def btn9(p1):
 def btnBack(p1):
     print('Guiv2_support.btnBack')
     sys.stdout.flush()
-    k.tap_key('BackSpace')
+    k.tap_key('\b')
    
     
 
