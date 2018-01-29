@@ -23,7 +23,7 @@ def vp_start_gui():
     '''Starting point when module is the main routine.'''
     global val, w, root
     root = Tk()
-    root.attributes('-fullscreeen', True)
+    root.attributes("-fullscreen", True)
     Guiv2_support.set_Tk_var()
     top = Remote (root)
     Guiv2_support.init(root, top)

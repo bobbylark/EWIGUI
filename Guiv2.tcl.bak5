@@ -590,7 +590,7 @@ proc vTclWindow.top37 {base} {
         lambda e: SerialConnect(e)
     }
     ttk::combobox $site_3_0.tCo37 \
-        -textvariable Port -foreground {} -background {} -takefocus {} 
+        -foreground {} -background {} -takefocus {} 
     vTcl:DefineAlias "$site_3_0.tCo37" "tcbPort" vTcl:WidgetProc "$top" 1
     ttk::combobox $site_3_0.cpd39 \
         -textvariable Buad -foreground {} -background {} -takefocus {} 

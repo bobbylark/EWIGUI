@@ -84,6 +84,7 @@ proc vTclWindow.top37 {base} {
     vTcl::widgets::core::toplevel::createCmd $top -class Toplevel \
         -menu "$top.m124" -background {#000000} \
         -highlightbackground {#000000} -highlightcolor black 
+    wm withdraw $top
     wm focusmodel $top passive
     wm geometry $top 1280x800
     update
@@ -94,7 +95,6 @@ proc vTclWindow.top37 {base} {
     wm minsize $top 1280 800
     wm overrideredirect $top 0
     wm resizable $top 0 0
-    wm deiconify $top
     wm title $top "Remote"
     label $top.cpd42 \
         -activebackground {#000000} -activeforeground black \
@@ -1394,7 +1394,7 @@ proc vTclWindow.top37 {base} {
         -in $top -x 20 -y 370 -width 440 -relwidth 0 -height 325 -relheight 0 \
         -anchor nw -bordermode inside 
     place $top.but49 \
-        -in $top -x 980 -y 365 -width 262 -relwidth 0 -height 124 \
+        -in $top -x 985 -y 365 -width 262 -relwidth 0 -height 124 \
         -relheight 0 -anchor nw -bordermode ignore 
     place $top.cpd39 \
         -in $top -x 470 -y 370 -width 310 -relwidth 0 -height 325 \

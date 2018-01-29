@@ -1296,7 +1296,7 @@ proc vTclWindow.top37 {base} {
         -in $site_3_0 -x 0 -y 150 -width 135 -relwidth 0 -height 145 \
         -relheight 0 -anchor nw -bordermode inside 
     place $site_3_0.cpd54 \
-        -in $site_3_0 -x 140 -y 5 -width 147 -relwidth 0 -height 124 \
+        -in $site_3_0 -x 140 -y 10 -width 147 -relwidth 0 -height 124 \
         -relheight 0 -anchor nw -bordermode inside 
     frame $top.cpd38 \
         -borderwidth 2 -background {#000000} -height 90 \

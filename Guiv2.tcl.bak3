@@ -811,10 +811,10 @@ proc vTclWindow.top37 {base} {
         -in $site_3_0 -x 370 -y 240 -width 164 -height 41 -anchor nw \
         -bordermode inside 
     place $site_3_0.cpd49 \
-        -in $site_3_0 -x 15 -y 140 -width 164 -height 101 -anchor nw \
+        -in $site_3_0 -x 25 -y 140 -width 164 -height 101 -anchor nw \
         -bordermode inside 
     place $site_3_0.cpd50 \
-        -in $site_3_0 -x 15 -y 225 -width 164 -height 41 -anchor nw \
+        -in $site_3_0 -x 20 -y 235 -width 164 -height 41 -anchor nw \
         -bordermode inside 
     place $site_3_0.cpd51 \
         -in $site_3_0 -x 545 -y 140 -width 194 -height 101 -anchor nw \
