@@ -64,6 +64,9 @@ proc vTcl:project:info {} {
 #################################
 # GENERATED GUI PROCEDURES
 #
+    ttk::style configure Menu -background #d9d9d9
+    ttk::style configure Menu -foreground #000000
+    ttk::style configure Menu -font TkDefaultFont
     menu .pop38 \
         -activebackground {#f9f9f9} -activeforeground black \
         -background {#d9d9d9} -font {{Segoe UI} 9} -foreground black \
@@ -1165,14 +1168,14 @@ proc vTclWindow.top37 {base} {
         -in $site_4_0 -x 10 -y 35 -width 114 -height 41 -anchor nw \
         -bordermode inside 
     place $site_4_0.cpd72 \
-        -in $site_4_0 -x 90 -y 95 -width 30 -height 30 -anchor nw \
+        -in $site_4_0 -x 90 -y 100 -width 35 -height 35 -anchor nw \
         -bordermode ignore 
     place $site_4_0.cpd73 \
-        -in $site_4_0 -x 50 -y 95 -width 30 -height 30 -anchor nw \
+        -in $site_4_0 -x 50 -y 100 -width 35 -height 35 -anchor nw \
         -bordermode ignore 
     place $site_4_0.cpd74 \
-        -in $site_4_0 -x 10 -y 95 -width 30 -height 30 -anchor nw \
-        -bordermode ignore 
+        -in $site_4_0 -x 10 -y 100 -width 35 -relwidth 0 -height 35 \
+        -relheight 0 -anchor nw -bordermode ignore 
     place $site_4_0.cpd38 \
         -in $site_4_0 -x 10 -y -10 -width 114 -height 41 -anchor nw \
         -bordermode inside 
@@ -1394,7 +1397,7 @@ proc vTclWindow.top37 {base} {
         -in $top -x 20 -y 370 -width 440 -relwidth 0 -height 325 -relheight 0 \
         -anchor nw -bordermode inside 
     place $top.but49 \
-        -in $top -x 980 -y 365 -width 262 -relwidth 0 -height 124 \
+        -in $top -x 985 -y 365 -width 262 -relwidth 0 -height 124 \
         -relheight 0 -anchor nw -bordermode ignore 
     place $top.cpd39 \
         -in $top -x 470 -y 370 -width 310 -relwidth 0 -height 325 \
