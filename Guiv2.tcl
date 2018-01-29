@@ -84,7 +84,6 @@ proc vTclWindow.top37 {base} {
     vTcl::widgets::core::toplevel::createCmd $top -class Toplevel \
         -menu "$top.m124" -background {#000000} \
         -highlightbackground {#000000} -highlightcolor black 
-    wm withdraw $top
     wm focusmodel $top passive
     wm geometry $top 1280x800
     update
@@ -95,6 +94,7 @@ proc vTclWindow.top37 {base} {
     wm minsize $top 1280 800
     wm overrideredirect $top 0
     wm resizable $top 0 0
+    wm deiconify $top
     wm title $top "Remote"
     label $top.cpd42 \
         -activebackground {#000000} -activeforeground black \
@@ -871,13 +871,13 @@ proc vTclWindow.top37 {base} {
         -in $site_4_0 -x -5 -y 25 -width 134 -relwidth 0 -height 41 \
         -relheight 0 -anchor nw -bordermode inside 
     place $site_4_0.cpd72 \
-        -in $site_4_0 -x 90 -y 80 -width 30 -height 30 -anchor nw \
+        -in $site_4_0 -x 85 -y 80 -width 35 -height 35 -anchor nw \
         -bordermode ignore 
     place $site_4_0.cpd73 \
-        -in $site_4_0 -x 50 -y 80 -width 30 -height 30 -anchor nw \
+        -in $site_4_0 -x 45 -y 80 -width 35 -height 35 -anchor nw \
         -bordermode ignore 
     place $site_4_0.cpd74 \
-        -in $site_4_0 -x 10 -y 80 -width 30 -height 30 -anchor nw \
+        -in $site_4_0 -x 5 -y 80 -width 35 -height 35 -anchor nw \
         -bordermode ignore 
     place $site_4_0.cpd38 \
         -in $site_4_0 -x 0 -y -10 -width 114 -height 41 -anchor nw \
@@ -918,10 +918,10 @@ proc vTclWindow.top37 {base} {
         -highlightbackground {#000000} -highlightcolor black -text m 
     vTcl:DefineAlias "$site_4_0.cpd42" "lblLTime11" vTcl:WidgetProc "$top" 1
     place $site_4_0.cpd71 \
-        -in $site_4_0 -x 10 -y 30 -width 84 -relwidth 0 -height 41 \
+        -in $site_4_0 -x 5 -y 30 -width 84 -relwidth 0 -height 41 \
         -relheight 0 -anchor nw -bordermode inside 
     place $site_4_0.cpd74 \
-        -in $site_4_0 -x 20 -y 80 -width 60 -relwidth 0 -height 30 \
+        -in $site_4_0 -x 20 -y 80 -width 60 -relwidth 0 -height 35 \
         -relheight 0 -anchor nw -bordermode ignore 
     place $site_4_0.cpd38 \
         -in $site_4_0 -x 0 -y -10 -width 114 -height 41 -anchor nw \
@@ -1021,7 +1021,7 @@ proc vTclWindow.top37 {base} {
         -in $site_4_0 -x 10 -y 30 -width 74 -relwidth 0 -height 41 \
         -relheight 0 -anchor nw -bordermode inside 
     place $site_4_0.cpd74 \
-        -in $site_4_0 -x 20 -y 80 -width 60 -relwidth 0 -height 30 \
+        -in $site_4_0 -x 20 -y 80 -width 60 -relwidth 0 -height 35 \
         -relheight 0 -anchor nw -bordermode ignore 
     place $site_4_0.cpd38 \
         -in $site_4_0 -x -10 -y -10 -width 134 -relwidth 0 -height 41 \
@@ -1165,14 +1165,14 @@ proc vTclWindow.top37 {base} {
         -in $site_4_0 -x 10 -y 35 -width 114 -height 41 -anchor nw \
         -bordermode inside 
     place $site_4_0.cpd72 \
-        -in $site_4_0 -x 90 -y 95 -width 30 -height 30 -anchor nw \
+        -in $site_4_0 -x 90 -y 90 -width 35 -height 35 -anchor nw \
         -bordermode ignore 
     place $site_4_0.cpd73 \
-        -in $site_4_0 -x 50 -y 95 -width 30 -height 30 -anchor nw \
+        -in $site_4_0 -x 50 -y 90 -width 35 -height 35 -anchor nw \
         -bordermode ignore 
     place $site_4_0.cpd74 \
-        -in $site_4_0 -x 10 -y 95 -width 30 -height 30 -anchor nw \
-        -bordermode ignore 
+        -in $site_4_0 -x 10 -y 90 -width 35 -relwidth 0 -height 35 \
+        -relheight 0 -anchor nw -bordermode ignore 
     place $site_4_0.cpd38 \
         -in $site_4_0 -x 10 -y -10 -width 114 -height 41 -anchor nw \
         -bordermode inside 
@@ -1215,7 +1215,7 @@ proc vTclWindow.top37 {base} {
         -in $site_4_0 -x 12 -y 32 -width 64 -relwidth 0 -height 41 \
         -relheight 0 -anchor nw -bordermode inside 
     place $site_4_0.cpd74 \
-        -in $site_4_0 -x 10 -y 80 -width 60 -relwidth 0 -height 30 \
+        -in $site_4_0 -x 10 -y 80 -width 60 -relwidth 0 -height 35 \
         -relheight 0 -anchor nw -bordermode ignore 
     place $site_4_0.cpd38 \
         -in $site_4_0 -x 20 -y -10 -width 74 -relwidth 0 -height 41 \
@@ -1265,7 +1265,7 @@ proc vTclWindow.top37 {base} {
         -in $site_4_0 -x 10 -y 30 -width 84 -relwidth 0 -height 41 \
         -relheight 0 -anchor nw -bordermode inside 
     place $site_4_0.cpd74 \
-        -in $site_4_0 -x 20 -y 80 -width 60 -relwidth 0 -height 30 \
+        -in $site_4_0 -x 20 -y 80 -width 60 -relwidth 0 -height 35 \
         -relheight 0 -anchor nw -bordermode ignore 
     place $site_4_0.cpd38 \
         -in $site_4_0 -x 0 -y -10 -width 114 -height 41 -anchor nw \
