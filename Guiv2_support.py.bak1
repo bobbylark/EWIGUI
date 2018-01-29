@@ -7,6 +7,11 @@
 
 import sys
 import keyboard
+from pymouse import PyMouse
+from pykeyboard import PyKeyboard
+
+m = PyMouse()
+k = PyKeyboard()
 
 try:
     from Tkinter import *
@@ -69,73 +74,76 @@ def Start(p1):
 def btn0(p1):
     print('Guiv2_support.btn0')
     sys.stdout.flush()
-    keyboard.press_and_release('0')
+    k.tap_key('0')
 
 def btn1(p1):
     print('Guiv2_support.btn1')
     sys.stdout.flush()
-    keyboard.press_and_release('1')
+    k.tap_key('1')
 
 def btn2(p1):
     print('Guiv2_support.btn2')
     sys.stdout.flush()
-    keyboard.press_and_release('2')
+    k.tap_key('2')
 
 def btn3(p1):
     print('Guiv2_support.btn3')
     sys.stdout.flush()
-    keyboard.press_and_release('3')
+    k.tap_key('3')
 
 def btn4(p1):
     print('Guiv2_support.btn4')
     sys.stdout.flush()
-    keyboard.press_and_release('4')
+    k.tap_key('4')
 
 def btn5(p1):
     print('Guiv2_support.btn5')
     sys.stdout.flush()
-    keyboard.press_and_release('5')
+    k.tap_key('5')
 
 def btn6(p1):
     print('Guiv2_support.btn6')
     sys.stdout.flush()
-    keyboard.press_and_release('6')
+    k.tap_key('6')
 
 def btn7(p1):
     print('Guiv2_support.btn7')
     sys.stdout.flush()
-    keyboard.press_and_release('7')
+    k.tap_key('7')
 
 def btn8(p1):
     print('Guiv2_support.btn8')
     sys.stdout.flush()
-    keyboard.press_and_release('8')
+    k.tap_key('8')
 
 def btn9(p1):
     print('Guiv2_support.btn9')
     sys.stdout.flush()
-    keyboard.press_and_release('9')
+    k.tap_key('9')
+    
 
 def btnBack(p1):
     print('Guiv2_support.btnBack')
     sys.stdout.flush()
+    k.tap_key('Backspace')
     keyboard.press_and_release('backspace')
+    
 
 def btnClear(p1):
     print('Guiv2_support.btnClear')
     sys.stdout.flush()
-    keyboard.press_and_release('ctrl+a')
-    keyboard.press_and_release('backspace')
+    k.tap_key('ctrl+a , del')
+    k.tap_key('backspace')
 
 def btnDot(p1):
     print('Guiv2_support.btnDot')
     sys.stdout.flush()
-    keyboard.press_and_release('.')
+    k.tap_key('.')
 
 def btnEnter(p1):
     print('Guiv2_support.btnEnter')
     sys.stdout.flush()
-    keyboard.press_and_release('enter')
+    k.tap_key('enter')
 
 def init(top, gui, *args, **kwargs):
     global w, top_level, root
@@ -152,6 +160,10 @@ def destroy_window():
 if __name__ == '__main__':
     import Guiv2
     Guiv2.vp_start_gui()
+
+
+
+
 
 
 

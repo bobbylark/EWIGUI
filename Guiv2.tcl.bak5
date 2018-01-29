@@ -1360,7 +1360,7 @@ proc vTclWindow.top37 {base} {
         -text AEC 
     vTcl:DefineAlias "$top.but39" "Button2" vTcl:WidgetProc "$top" 1
     bind $top.but39 <Button-1> {
-        lambda e: AutoEngineControl (e)
+        lambda e: AEC(e)
     }
     button $top.cpd40 \
         -activebackground {#00ff00} -activeforeground {#000000} \

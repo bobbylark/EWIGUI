@@ -123,15 +123,6 @@ proc vTclWindow.top37 {base} {
     bind $site_3_0.cpd63 <Button-1> {
         lambda e: btnEnter(e)
     }
-    button $site_3_0.cpd64 \
-        -activebackground {#d9d9d9} -activeforeground {#000000} \
-        -background {#d9d9d9} -disabledforeground {#a3a3a3} \
-        -foreground {#000000} -highlightbackground {#d9d9d9} \
-        -highlightcolor black -pady 0 -text Clear 
-    vTcl:DefineAlias "$site_3_0.cpd64" "btnNumClear" vTcl:WidgetProc "$top" 1
-    bind $site_3_0.cpd64 <Button-1> {
-        lambda e: btnClear(e)
-    }
     button $site_3_0.cpd65 \
         -activebackground {#d9d9d9} -activeforeground {#000000} \
         -background {#d9d9d9} -disabledforeground {#a3a3a3} \
@@ -318,10 +309,7 @@ proc vTclWindow.top37 {base} {
         lambda e: btn1(e)
     }
     place $site_3_0.cpd63 \
-        -in $site_3_0 -x 210 -y 140 -width 62 -relwidth 0 -height 124 \
-        -relheight 0 -anchor nw -bordermode inside 
-    place $site_3_0.cpd64 \
-        -in $site_3_0 -x 210 -y 15 -width 62 -relwidth 0 -height 118 \
+        -in $site_3_0 -x 217 -y 12 -width 62 -relwidth 0 -height 259 \
         -relheight 0 -anchor nw -bordermode inside 
     place $site_3_0.cpd65 \
         -in $site_3_0 -x 145 -y 15 -width 60 -height 60 -anchor nw \

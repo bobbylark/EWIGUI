@@ -1,20 +1,58 @@
-Guiv2_support.btn1
 Guiv2_support.btn2
-Guiv2_support.btn3
-Guiv2_support.btn4
 Guiv2_support.btn5
-Guiv2_support.btn6
-Guiv2_support.btn7
-Guiv2_support.btn8
-Guiv2_support.btn9
 Guiv2_support.btnBack
 Guiv2_support.btnBack
 Guiv2_support.btnBack
 Guiv2_support.btnBack
-Guiv2_support.btnBack
-Guiv2_support.btnBack
-Guiv2_support.btnBack
-Guiv2_support.btnBack
-Guiv2_support.btnBack
-Guiv2_support.btnBack
-Guiv2_support.SendStart
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 1541, in __call__
+    return self.func(*args)
+  File "C:/Users/user/Documents/Eco car Python UI/EWIGUI/Guiv2.py", line 332, in <lambda>
+    self.btnNumBack.bind('<Button-1>',lambda e:Guiv2_support.btnBack(e))
+  File "C:\Users\user\Documents\Eco car Python UI\EWIGUI\Guiv2_support.py", line 128, in btnBack
+    k.tap_key('BackSpace')
+  File "C:\Python27\lib\site-packages\pykeyboard\base.py", line 43, in tap_key
+    self.press_key(character)
+  File "C:\Python27\lib\site-packages\pykeyboard\windows.py", line 55, in press_key
+    char_vk = win32api.VkKeyScan(character)
+TypeError: must be a byte string of length 1
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 1541, in __call__
+    return self.func(*args)
+  File "C:/Users/user/Documents/Eco car Python UI/EWIGUI/Guiv2.py", line 332, in <lambda>
+    self.btnNumBack.bind('<Button-1>',lambda e:Guiv2_support.btnBack(e))
+  File "C:\Users\user\Documents\Eco car Python UI\EWIGUI\Guiv2_support.py", line 128, in btnBack
+    k.tap_key('BackSpace')
+  File "C:\Python27\lib\site-packages\pykeyboard\base.py", line 43, in tap_key
+    self.press_key(character)
+  File "C:\Python27\lib\site-packages\pykeyboard\windows.py", line 55, in press_key
+    char_vk = win32api.VkKeyScan(character)
+TypeError: must be a byte string of length 1
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 1541, in __call__
+    return self.func(*args)
+  File "C:/Users/user/Documents/Eco car Python UI/EWIGUI/Guiv2.py", line 332, in <lambda>
+    self.btnNumBack.bind('<Button-1>',lambda e:Guiv2_support.btnBack(e))
+  File "C:\Users\user\Documents\Eco car Python UI\EWIGUI\Guiv2_support.py", line 128, in btnBack
+    k.tap_key('BackSpace')
+  File "C:\Python27\lib\site-packages\pykeyboard\base.py", line 43, in tap_key
+    self.press_key(character)
+  File "C:\Python27\lib\site-packages\pykeyboard\windows.py", line 55, in press_key
+    char_vk = win32api.VkKeyScan(character)
+TypeError: must be a byte string of length 1
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Python27\lib\lib-tk\Tkinter.py", line 1541, in __call__
+    return self.func(*args)
+  File "C:/Users/user/Documents/Eco car Python UI/EWIGUI/Guiv2.py", line 332, in <lambda>
+    self.btnNumBack.bind('<Button-1>',lambda e:Guiv2_support.btnBack(e))
+  File "C:\Users\user\Documents\Eco car Python UI\EWIGUI\Guiv2_support.py", line 128, in btnBack
+    k.tap_key('BackSpace')
+  File "C:\Python27\lib\site-packages\pykeyboard\base.py", line 43, in tap_key
+    self.press_key(character)
+  File "C:\Python27\lib\site-packages\pykeyboard\windows.py", line 55, in press_key
+    char_vk = win32api.VkKeyScan(character)
+TypeError: must be a byte string of length 1

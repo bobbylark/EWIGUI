@@ -64,6 +64,9 @@ proc vTcl:project:info {} {
 #################################
 # GENERATED GUI PROCEDURES
 #
+    ttk::style configure Menu -background #d9d9d9
+    ttk::style configure Menu -foreground #000000
+    ttk::style configure Menu -font TkDefaultFont
     menu .pop38 \
         -activebackground {#f9f9f9} -activeforeground black \
         -background {#d9d9d9} -font {{Segoe UI} 9} -foreground black \

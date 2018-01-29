@@ -662,7 +662,7 @@ proc vTclWindow.top37 {base} {
     vTcl:DefineAlias "$top.lab109" "Labelframe2" vTcl:WidgetProc "$top" 1
     set site_3_0 $top.lab109
     text $site_3_0.cpd110 \
-        -background white -font TkTextFont -foreground black -height 114 \
+        -background white -font TkTextFont -foreground black -height 74 \
         -highlightbackground {#ff797c} -highlightcolor black \
         -insertbackground black -selectbackground {#fa2535} \
         -selectforeground black -undo 1 -width 904 -wrap word 
@@ -670,7 +670,7 @@ proc vTclWindow.top37 {base} {
     .top37.lab109.cpd110 insert end text
     vTcl:DefineAlias "$site_3_0.cpd110" "txtRaw" vTcl:WidgetProc "$top" 1
     place $site_3_0.cpd110 \
-        -in $site_3_0 -x 10 -y 20 -width 904 -relwidth 0 -height 114 \
+        -in $site_3_0 -x 10 -y 15 -width 904 -relwidth 0 -height 74 \
         -relheight 0 -anchor nw -bordermode ignore 
     labelframe $top.lab118 \
         -foreground {#ffffff} -text {Car Data} -background {#000000} \

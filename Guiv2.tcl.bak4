@@ -139,7 +139,7 @@ proc vTclWindow.top37 {base} {
         -highlightcolor black -pady 0 -text 9 
     vTcl:DefineAlias "$site_3_0.cpd65" "btnNum9" vTcl:WidgetProc "$top" 1
     bind $site_3_0.cpd65 <Button-1> {
-        lambda e: btn9(e)
+        lambda e: <kp_9>(e)
     }
     button $site_3_0.cpd66 \
         -activebackground {#d9d9d9} -activeforeground {#000000} \
